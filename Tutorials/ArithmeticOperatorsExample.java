@@ -2,26 +2,19 @@ public class ArithmeticOperatorsExample {
     public static void main(String[] args) {
         int num1 = 10;
         int num2 = 5;
-        // Addition
-        int sum = num1 + num2;
+        int sum = num1 + num2; // Addition
         System.out.println("Sum: " + sum);
-        // Subtraction
-        int difference = num1 - num2;
+        int difference = num1 - num2; // Subtraction
         System.out.println("Difference: " + difference);
-        // Multiplication
-        int product = num1 * num2;
+        int product = num1 * num2;  // Multiplication
         System.out.println("Product: " + product);
-        // Division
-        int quotient = num1 / num2;
+        int quotient = num1 / num2; // Division
         System.out.println("Quotient: " + quotient);
-        // Modulus
-        int remainder = num1 % num2;
+        int remainder = num1 % num2; // Modulus
         System.out.println("Remainder: " + remainder);
-        // Increment
-        num1++;
+        num1++; // Increment
         System.out.println("Incremented num1: " + num1);
-        // Decrement
-        num2--;
+        num2--;  // Decrement
         System.out.println("Decremented num2: " + num2);
     }
 }
